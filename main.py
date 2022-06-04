@@ -6,7 +6,7 @@ window.title("Miles to Kilometers")
 
 # button 1
 def button_clicked():
-    amount = round(int(user_input.get()) * 1.609344, 2)
+    amount = round(int(user_input.get()) * 1.609344, 3)
     output.config(text=f"{amount}km")
 
 
